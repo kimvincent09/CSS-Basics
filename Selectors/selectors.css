@@ -1,0 +1,44 @@
+/* Targeting an element */
+p{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Using a class */
+.user{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Using an ID */
+#kim{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Grouping Selectors */
+.user, #kim{
+text-decoration: underline;
+}
+
+/* Multiple Classes */
+.user.alday {
+    color: violet;
+    font-family: cursive;
+}
+
+/* Combining Classes and IDs */
+.user#vincent{
+    color: orange;
+}
+
+/* Document Tree */
+/* Targeting a Child Element */
+p span{
+    color: grey;
+    font-family: fantasy;
+}
+/* Adjacent Sibling Selector */
+p+span{
+    color: magenta;
+}
